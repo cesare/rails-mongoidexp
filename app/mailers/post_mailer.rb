@@ -6,8 +6,7 @@ class PostMailer < ApplicationMailer
   #   en.post_mailer.published.subject
   #
   def published
-    @greeting = "Hi"
-
+    @post = params[:post]
     mail to: "to@example.org"
   end
 end
