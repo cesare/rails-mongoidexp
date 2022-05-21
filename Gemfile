@@ -13,6 +13,7 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
+gem 'letter_opener', '~> 1.8', '>= 1.8.1'
 gem 'mongoid', '~> 7.4'
 
 group :development, :test do
