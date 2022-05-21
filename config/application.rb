@@ -35,5 +35,7 @@ module Mongoidexp
     config.generators.system_tests = nil
 
     config.active_job.queue_adapter = :sidekiq
+
+    config.autoload_once_paths << "#{root}/app/serializers"
   end
 end
