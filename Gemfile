@@ -15,6 +15,7 @@ gem "bootsnap", require: false
 
 gem 'globalid'
 gem 'mongoid', '~> 7.4'
+gem 'redis'
 gem 'sidekiq', '~> 6.4', '>= 6.4.2'
 
 group :development, :test do
