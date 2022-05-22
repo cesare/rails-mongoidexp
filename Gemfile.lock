@@ -212,6 +212,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  globalid
   importmap-rails
   jbuilder
   letter_opener_web (~> 2.0)
